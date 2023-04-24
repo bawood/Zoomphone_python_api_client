@@ -1,0 +1,10 @@
+# InlineResponse20057PolicyInternationalCalling
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**enable** | **bool** | Allow current extension to place international calls outside of the calling plan. | [optional] 
+**locked_by** | **str** | Which level of administrator prohibits modifying the current settings. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

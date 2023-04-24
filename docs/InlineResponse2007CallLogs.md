@@ -1,0 +1,47 @@
+# InlineResponse2007CallLogs
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**answer_start_time** | **datetime** | GMT date and time at which the inbound call was answered. The value of this field is in &#x60;yyyy-MM-dd&#x27;T&#x27;HH:mm:ss&#x27;Z&#x27;&#x60; format.    | [optional] 
+**call_end_time** | **str** | The call end time in GMT &#x60;date-time&#x60; format. | [optional] 
+**call_id** | **str** | Unique identifier of the phone call. | [optional] 
+**call_type** | **str** | The type of call: * &#x60;voip&#x60; (Voice over IP) * &#x60;pstn&#x60; (Public Switched Telephone Network) * &#x60;tollfree&#x60; * &#x60;international&#x60; * &#x60;contactCenter&#x60; | [optional] 
+**callee_country_code** | **str** | Country calling code. | [optional] 
+**callee_country_iso_code** | **str** | ISO alpha2 country code. | [optional] 
+**callee_did_number** | **str** | Callee&#x27;s DID (direct inward dial) number in e164 format. | [optional] 
+**callee_name** | **str** | Contact name of callee | [optional] 
+**callee_number** | **str** | Number of callee | [optional] 
+**callee_number_type** | **int** | The callee&#x27;s number type: * &#x60;1&#x60; — Extension number. * &#x60;2&#x60; — Phone number. * &#x60;3&#x60; — Customized emergency number. | [optional] 
+**callee_number_source** | **str** | Indicates where the phone number comes from: * &#x60;internal&#x60; — ZP native. * &#x60;external&#x60; — BYOC or Provider Exchange. * &#x60;byop&#x60; — Premise peering. Not available when &#x60;callee_number_type &#x3D; 1&#x60;. | [optional] 
+**caller_country_code** | **str** | Country calling code. | [optional] 
+**caller_country_iso_code** | **str** | ISO alpha2 country code. | [optional] 
+**caller_did_number** | **str** | Caller&#x27;s DID (direct inward dial) number in e164 format. | [optional] 
+**caller_name** | **str** | Contact name of caller | [optional] 
+**caller_number** | **str** | Number of caller | [optional] 
+**caller_number_type** | **int** | The caller&#x27;s number type:  * &#x60;1&#x60; — Extension number.  * &#x60;2&#x60; — Phone number. | [optional] 
+**caller_number_source** | **str** | Indicates where the phone number comes from: * &#x60;internal&#x60; — ZP native. * &#x60;external&#x60; — BYOC or Provider Exchange. * &#x60;byop&#x60; — Premise peering. Not available when &#x60;caller_number_type &#x3D; 1&#x60;. | [optional] 
+**caller_billing_reference_id** | **str** | Billing reference ID (for peering phone numbers). | [optional] 
+**charge** | **str** | Billing charge for the call. | [optional] 
+**client_code** | **str** | Client code. | [optional] 
+**date_time** | **str** | Start time of the call | [optional] 
+**device_private_ip** | **str** | Display the device&#x27;s private IP address if the account has the &#x60;show_device_ip_for_call_log&#x60; parameter set to &#x60;enabled&#x60;. | [optional] 
+**device_public_ip** | **str** | Display the device&#x27;s public IP address if the account has the &#x60;show_device_ip_for_call_log&#x60; parameter set to &#x60;enabled&#x60;. | [optional] 
+**direction** | **str** | Direction of the call. \&quot;inbound\&quot; | \&quot;outbound\&quot; | [optional] 
+**duration** | **int** | Duration of the call in seconds. | [optional] 
+**id** | **str** | Call Log ID | [optional] 
+**owner** | [**InlineResponse2007Owner**](InlineResponse2007Owner.md) |  | [optional] 
+**path** | **str** | Path of the call.  | [optional] 
+**rate** | **str** | Billing rate for the call. | [optional] 
+**recording_id** | **str** | Unique identifier of the call recording. | [optional] 
+**recording_type** | **str** | Type of call recording:  &#x60;1&#x60; OnDemand  &#x60;2&#x60; Automatic | [optional] 
+**result** | **str** | Result of the call: &#x60;Missed&#x60; | &#x60;Voicemail&#x60; | &#x60;Call connected&#x60; | &#x60;Rejected&#x60; | &#x60;Blocked&#x60;| &#x60;Busy&#x60;| &#x60;Wrong Number&#x60;| &#x60;No Answer&#x60;| &#x60;International Disabled&#x60;| &#x60;Internal Error&#x60;| &#x60;Call failed&#x60; | &#x60;Restricted Number&#x60;| &#x60;Call Cancel&#x60; | &#x60;Message&#x60;| &#x60;Answered by Other Member&#x60; | &#x60;Call Cancelled&#x60; | &#x60;Park&#x60; | &#x60;Parked&#x60; | &#x60;Blocked by non-GAL&#x60; |  &#x60;Blocked by info-Barriers&#x60; | &#x60;Recording Failure&#x60;| &#x60;Recorded&#x60;| &#x60;Auto Recorded&#x60;. | [optional] 
+**site** | [**InlineResponse2007Site**](InlineResponse2007Site.md) |  | [optional] 
+**user_id** | **str** | User ID of the call log owner. | [optional] 
+**hold_time** | **int** | Hold time during a call in seconds. | [optional] 
+**waiting_time** | **int** | Duration that a  **call queue member** takes to answer a call from the time it started ringing. The value of the duration is in seconds.     | [optional] 
+**department** | **str** | Name of the user&#x27;s department. | [optional] 
+**cost_center** | **str** | The cost center name to which a user belongs. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

@@ -1,0 +1,46 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from swagger_client.api.accounts_api import AccountsApi
+from swagger_client.api.audio_library_api import AudioLibraryApi
+from swagger_client.api.auto_receptionists_api import AutoReceptionistsApi
+from swagger_client.api.billing_account_api import BillingAccountApi
+from swagger_client.api.blocked_list_api import BlockedListApi
+from swagger_client.api.call_handling_api import CallHandlingApi
+from swagger_client.api.call_logs_api import CallLogsApi
+from swagger_client.api.call_queues_api import CallQueuesApi
+from swagger_client.api.carrier_reseller_api import CarrierResellerApi
+from swagger_client.api.common_area_phones_api import CommonAreaPhonesApi
+from swagger_client.api.common_areas_api import CommonAreasApi
+from swagger_client.api.dashboard_api import DashboardApi
+from swagger_client.api.device_line_keys_api import DeviceLineKeysApi
+from swagger_client.api.dial_by_name_directory_api import DialByNameDirectoryApi
+from swagger_client.api.directory_backup_routing_rules_api import DirectoryBackupRoutingRulesApi
+from swagger_client.api.emergency_addresses_api import EmergencyAddressesApi
+from swagger_client.api.emergency_service_locations_api import EmergencyServiceLocationsApi
+from swagger_client.api.external_contacts_api import ExternalContactsApi
+from swagger_client.api.firmware_update_rules_api import FirmwareUpdateRulesApi
+from swagger_client.api.group_call_pickup_api import GroupCallPickupApi
+from swagger_client.api.ivr_api import IVRApi
+from swagger_client.api.line_keys_api import LineKeysApi
+from swagger_client.api.monitoring_groups_api import MonitoringGroupsApi
+from swagger_client.api.phone_devices_api import PhoneDevicesApi
+from swagger_client.api.phone_numbers_api import PhoneNumbersApi
+from swagger_client.api.phone_plans_api import PhonePlansApi
+from swagger_client.api.phone_roles_api import PhoneRolesApi
+from swagger_client.api.provider_exchange_api import ProviderExchangeApi
+from swagger_client.api.provision_templates_api import ProvisionTemplatesApi
+from swagger_client.api.recordings_api import RecordingsApi
+from swagger_client.api.reports_api import ReportsApi
+from swagger_client.api.sms_api import SMSApi
+from swagger_client.api.sms_campaign_api import SMSCampaignApi
+from swagger_client.api.setting_templates_api import SettingTemplatesApi
+from swagger_client.api.settings_api import SettingsApi
+from swagger_client.api.shared_line_appearance_api import SharedLineAppearanceApi
+from swagger_client.api.shared_line_group_api import SharedLineGroupApi
+from swagger_client.api.sites_api import SitesApi
+from swagger_client.api.users_api import UsersApi
+from swagger_client.api.voicemails_api import VoicemailsApi
+from swagger_client.api.zoom_rooms_api import ZoomRoomsApi
